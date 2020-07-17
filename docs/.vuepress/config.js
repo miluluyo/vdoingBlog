@@ -58,7 +58,7 @@ module.exports = {
       link: 'https://github.com/miluluyo' // 可选的
     },
     blogger:{ // 博主信息，显示在首页侧边栏
-      avatar: '/img/tx.jpg',
+      avatar: '/vdoingBlog/img/tx.jpg',
       name: '麋鹿鲁哟',
       slogan: '前端小菜鸡(✪ω✪)'
     },
