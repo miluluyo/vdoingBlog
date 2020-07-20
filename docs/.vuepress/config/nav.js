@@ -14,6 +14,7 @@ module.exports = [
         {text: '《Vue》笔记', link: '/note/vue/'},
         {text: '《TypeScript 从零实现 axios》', link: '/note/typescript-axios/'},
         {text: '小程序笔记', link: '/note/wx-miniprogram/'},
+        {text: 'JavaScript 基础', link: '/note/javascriptbasics/'}
       ]}
     ]
   },
@@ -45,7 +46,7 @@ module.exports = [
       {text: '友情链接', link: '/friends/'},
     ]
   },
-  //{text: '关于', link: '/about/'},
+  {text: '关于', link: '/about/'},
   {
     text: '收藏',
     link: '/pages/beb6c0bd8a66cea6/',
