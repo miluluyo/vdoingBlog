@@ -37,6 +37,23 @@ module.exports = [
     ]
   },
   {
+    text: '面试',
+    link: '/interview/',
+    items: [
+      {text: '面试题库', items: [
+        {text: 'HTML', link: '/pages/58734d/'},
+        {text: 'CSS', link: '/pages/26864d/'},
+        {text: 'jQuery', link: '/pages/ceea45/'},
+        {text: 'Vue', link: '/pages/4547e6/'},
+        {text: '零碎', link: '/pages/a134b2/'}
+      ]}
+      ,
+      {text: '面试心得', items: [
+        {text: '杂言碎语', link: '/pages/331dbf/'},
+      ]}
+    ]
+  },
+  {
     text: '更多', 
     link: '/more/',
     items: [
