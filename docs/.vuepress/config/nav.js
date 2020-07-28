@@ -54,6 +54,24 @@ module.exports = [
     ]
   },
   {
+    text: '读书派', 
+    link: '/bookssent/',
+    items: [
+      {text: '摘抄收录', items: [
+        {text: '励志鸡汤', link: '/ChickenSoup/'},
+        {text: '人间烟火', link: '/PassionLife/'},
+        {text: '万物沦丧', link: '/ThingsLost/'},
+        {text: '关掉烦恼', link: '/NoTrouble/'},
+        {text: '小酒馆', link: '/Bistro/'}
+      ]}, //link: '/pages/wordsof/'}
+      {text: '读书笔记', items: [
+        {text: '《小狗钱钱》', link: '/note/xgqq/'},
+        {text: '《穷爸爸富爸爸》', link: '/note/qbbfbb/'},
+        {text: '《聪明人使用方格笔记本》', link: '/note/cmrsyfgbjb/'}
+      ]}
+    ]
+  },
+  {
     text: '更多', 
     link: '/more/',
     items: [
