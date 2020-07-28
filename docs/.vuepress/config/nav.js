@@ -58,11 +58,11 @@ module.exports = [
     link: '/bookssent/',
     items: [
       {text: '摘抄收录', items: [
-        {text: '励志鸡汤', link: '/ChickenSoup/'},
-        {text: '人间烟火', link: '/PassionLife/'},
-        {text: '万物沦丧', link: '/ThingsLost/'},
-        {text: '关掉烦恼', link: '/NoTrouble/'},
-        {text: '小酒馆', link: '/Bistro/'}
+        {text: '☆ 励志鸡汤', link: '/ChickenSoup/'},
+        {text: '❀ 人间烟火', link: '/PassionLife/'},
+        {text: '☣ 万物沦丧', link: '/ThingsLost/'},
+        {text: '✌ 关掉烦恼', link: '/NoTrouble/'},
+        {text: '✲ 小酒馆', link: '/Bistro/'}
       ]}, //link: '/pages/wordsof/'}
       {text: '读书笔记', items: [
         {text: '《小狗钱钱》', link: '/note/xgqq/'},
