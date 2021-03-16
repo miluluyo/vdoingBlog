@@ -14,7 +14,7 @@ jobs: # 工作流
 
     strategy:
       matrix:
-        node-version: [10.x]
+        node-version: [12.x]
 
     steps: # 步骤
       - name: Checkout # 步骤1
