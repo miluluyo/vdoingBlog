@@ -1,4 +1,5 @@
 const nav = require('./config/nav.js');
+const htmlModules = require('./config/htmlModules.js');
 
 module.exports = {
   title: "麋鹿鲁哟",
@@ -85,7 +86,8 @@ module.exports = {
     footer:{ // 页脚信息
       createYear: 2019, // 博客创建年份
       copyrightInfo: '麋鹿鲁哟 | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
-    }
+    },
+    htmlModules
   },
   plugins: [ // 插件
     // [require('./plugins/love-me'), { // 鼠标点击爱心特效
