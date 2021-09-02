@@ -138,6 +138,11 @@
           :tagsData="$categoriesAndTags.tags"
           :length="30"
         />
+        <div
+          class="custom-html-box card-box"
+          v-if="homeSidebarB"
+          v-html="homeSidebarB"
+        ></div>
       </template>
     </MainLayout>
 
@@ -270,6 +275,10 @@ export default {
   },
 
   computed: {
+    homeSidebarB () {
+      const { htmlModules } = this.$themeConfig
+      return htmlModules ? htmlModules.homeSidebarB : ''
+    },
     showBanner() { // 当分页不在第一页时隐藏banner栏
       return this.$route.query.p
        && this.$route.query.p != 1
