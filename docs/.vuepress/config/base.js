@@ -1,1 +1,1 @@
-export default '/vdoingBlog/'
+module.exports='/vdoingBlog/'
